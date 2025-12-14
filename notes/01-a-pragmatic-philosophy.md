@@ -7,6 +7,11 @@
 - When you make a mistake admit it honestly and try to offer solutions.
 - Trust in a team is essential.
 - Provide solutions and do not make lame excuses.
+- Software rot is an increase of disorder in software.
+- There are many factors that contribute in software rot, the most important one seems to be the psycology or culture at work or project.
+- A broken window in a building gives and idea of abandonment, that no one care about the building.
+- Hopelessness can be contagious. Ignoring a clearly broken situation reinforces the ideas that maybe nothing can be fixed, that no one cares, that all is doomed.
+- Do not live with broken windows. Do not leave broken windows (bad designs, wrong decisions, poor code) unrepaired, fix them immediately or take some action.
 
 ## My notes
 - How do you react when someone such as bank teller, and auto mechanic, or a clerk comes to you with a lame excuse? What do you think of them and their company?. I feel angry and think they are incompetent, I think they are not a good company and they do not offer quality.
