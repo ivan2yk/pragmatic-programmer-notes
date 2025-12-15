@@ -1,4 +1,4 @@
-# Stone Soup
+# Stone Soup Story
 
 ```text
         🪖        🪖
