@@ -1,5 +1,18 @@
 # Stone Soup
 
+```text
+        🪖        🪖
+     (Soldier) (Soldier)
+         \      /
+          \    /
+        ┌─────────┐
+        │   🪨     │
+        │  🍲🔥    │   Stone Soup
+        └─────────┘
+           /  \
+      🧑‍🌾  🧑‍🌾  🧑‍🌾
+        Villagers
+```
 ## Short summary
 A few hungry soldiers arrive at a village where the villagers are poor or unwilling to share food. The soldiers say they can make a wonderful soup using only a stone.
 
