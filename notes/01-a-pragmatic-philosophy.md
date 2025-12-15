@@ -12,6 +12,7 @@
 - The broken window theory. A broken window in a building gives and idea of abandonment, that no one care about the building; and this leads to more disorder and eventual serious damage
 - Hopelessness can be contagious. Ignoring a clearly broken situation reinforces the ideas that maybe nothing can be fixed, that no one cares, that all is doomed.
 - Do not live with broken windows. Do not leave broken windows (bad designs, wrong decisions, poor code) unrepaired; fix them immediately or take some action.
+- Be a catalyst for change. If asking for permission will cause start-up fatigue, take the initiative ("bring out the stones" as the soldiers did in the "Stone Soup" story): identify a reasonable improvement you can deliver, develop it well, and let others marvel. People find it easier to join an ongoing success.
 
 ## My notes
 - How do you react when someone such as bank teller, and auto mechanic, or a clerk comes to you with a lame excuse? What do you think of them and their company?. I feel angry and think they are incompetent, I think they are not a good company and they do not offer quality.
