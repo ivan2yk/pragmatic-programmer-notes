@@ -16,9 +16,11 @@
 - Do not live with broken windows. Do not leave broken windows (bad designs, wrong decisions, poor code) unrepaired; fix them immediately or take some action.
 ### Stone Soup and Boiled Frogs
 - Be a catalyst for change. If asking for permission will cause start-up fatigue, take the initiative ("bring out the stones" as the soldiers did in the "Stone Soup" story): identify a reasonable improvement you can deliver, develop it well, and let others marvel. People find it easier to join an ongoing success.
-
+## Tips
+3. You have agency
+4. Provide options, do not make lame excuses
+5. Do not live with broken windows
+6. Be a catalyst for change
 ## My notes
-- How do you react when someone such as bank teller, and auto mechanic, or a clerk comes to you with a lame excuse? What do you think of them and their company?. I feel angry and think they are incompetent, I think they are not a good company and they do not offer quality.
+- When someone such as bank teller, and auto mechanic, or a clerk comes to me with a lame excuse I feel angry and think they are incompetent, I think they are not a good company and they do not offer quality.
 - Next time I find myselft saying "I do not know" I will add "but I will find out", that way I will admit I do not know something but I am taking responsability.
-
-## Connections
