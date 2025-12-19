@@ -10,5 +10,5 @@
     - Realistic
     - Jack of all trades
 ## Tips
-- Care about your craft. There is no point in developing software unless you care about doing it well.
-- Think about you work. Think about what you are doing while you are doing it, do not do things in auto-pilot. Constantly be thinking.
+1. Care about your craft. There is no point in developing software unless you care about doing it well.
+2. Think about you work. Think about what you are doing while you are doing it, do not do things in auto-pilot. Constantly be thinking.
