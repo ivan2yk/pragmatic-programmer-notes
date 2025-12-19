@@ -1,8 +1,8 @@
 # A Pragmatic Philosophy
 ## Key ideas
 ### It's Your Life
-- It is your life. If you feel you are stagnating on your job or are underappreciate or underpaid or technology has passed you by, then do something to change it, after all this is you career this is your life.
-### The Cat Ate My Source Code
+- If you feel you are stagnating on your job or are underappreciate or underpaid or technology has passed you by, then do something to change it, after all this is you career this is your life.
+### Take Responsability
 - Take responsability for yourself and your actions.
 - When things go wrong deal with them as professionally as you can, that means to be honest and direct.
 - When you make a mistake admit it honestly and try to offer solutions.
