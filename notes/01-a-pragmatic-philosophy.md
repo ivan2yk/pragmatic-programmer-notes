@@ -49,6 +49,23 @@
   3. What is the context?.
   4. When or where would this work?.
   5. Why is this a problem?.
+### Communicate
+- Having the best ideas, the finest code, or the most pragmatic thinking is ultimately sterile unless you can communicate with other people.
+- A good idea is an orphan without effective communication.
+- As developers we have to communicate on many levels.
+- A large part of our day is spent communicating so we need to do it well.
+- Know your audience: you need to understand their needs, interests and capabilities of your audience.
+- Gather feedback.
+- Do not just wait for questions, ask for them.
+- Look at body language and facial expressions.
+- Plan what you want to say. Write an outline then ask yourself if it express what you want to express, then refine it
+- Choose the best moment.
+- Chooose the appropiate style to suit your audience, remember that you are half of the communication transaction.
+- Your ideas are important so they deserve a good-looking vehicle to convey them to your audience.
+- There is one technique that you must follow if you want people to listen to you: listen to them.
+- Unless you work in a vacuum, you need to be able to communicate. The more effective that communication, the more influential you become.
+- Pragmatic programmers embrace documentation as an integral part of the overall development process.
+- Keep code and documentation together.
 ## Tips
 3. You have agency
 4. Provide options, do not make lame excuses
