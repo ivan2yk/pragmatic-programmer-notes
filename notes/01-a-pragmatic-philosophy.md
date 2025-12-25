@@ -23,6 +23,18 @@
 - Surprinsingly, many users would rather use software with some rough edges today than wait a year for the shiny.
 - Great software today is often preferable to the fantasy of perfect software tomorrow.
 - Do not spoil perfectly good program by overembellishment and overrefinement.
+### Your Knowledge Portfolio
+- Your knowledge and experience are your most important day to day professional assets.
+- Knowledge and experience are expiring assets: something whose value diminishes over time.
+- As the value of your knowledge and experience declines, so does your value to your company or client.
+- Your ability to learn new things is your most important strategic asset.
+- A programmer knowledge portafolio: all the facts a person know about computing, application domain he works on, and all his experience
+- Managing a knowledge portfolio is similar to managing a financial portfolio
+- 1. Serious investors invest regularly as a habit
+- 2. Diversification is the key to long term success
+- 3. Balance your portfolio between conservative and high risk
+- 4. Try to buy low and sell high
+- 5. Review and rebalance your portfolio
 ## Tips
 3. You have agency
 4. Provide options, do not make lame excuses
