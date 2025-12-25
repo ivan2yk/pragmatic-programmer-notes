@@ -30,11 +30,25 @@
 - Your ability to learn new things is your most important strategic asset.
 - A programmer knowledge portafolio: all the facts a person know about computing, application domain he works on, and all his experience
 - Managing a knowledge portfolio is similar to managing a financial portfolio
-- 1. Serious investors invest regularly as a habit. Use a consistent time and place away from interruptions.
-- 2. Diversification is the key to long term success. The more different things you know, the more valuable you are; As a baseline, you need to know the ins and outs of the particular technology you are working with currently, the go to learn new technology and do not forget the non-technical areas.
-- 3. Balance your portfolio between conservative, high risk and high reward investments. Do not put all your technical eggs in one basket.
-- 4. Try to buy low and sell hig. 
-- 5. Review and rebalance. This is a very dynamic industry, that new hot technology you learn last month might be stone cold by now. 
+  1. Serious investors invest regularly as a habit. Use a consistent time and place away from interruptions.
+  2. Diversification is the key to long term success. The more different things you know, the more valuable you are; As a baseline, you need to know the ins and outs of the particular technology you are working with currently, the go to learn new technology and do not forget the non-technical areas.
+  3. Balance your portfolio between conservative, high risk and high reward investments. Do not put all your technical eggs in one basket.
+  4. Try to buy low and sell hig. 
+  5. Review and rebalance. This is a very dynamic industry, that new hot technology you learn last month might be stone cold by now.
+- Your goals could be:
+  1. Learn at least one new language every year
+  2. Read a technical book each month
+  3. Read nontechnical books, too
+  4. Take classes
+  5. Participate in local user groups and meetups
+  6. Experiment with different environments: If you have worked in Windows, spend some time with Linux
+  7. Stay current: Read news and posts online on technology different that of your current project
+- Think critically about what your read and hear, answer the next questions:
+  1. Ask the five whys: Ask "why?" at least five times.
+  2. Who does this benefit?
+  3. What is the context?
+  4. When or where would this work?
+  5. why is this a problem?
 ## Tips
 3. You have agency
 4. Provide options, do not make lame excuses
