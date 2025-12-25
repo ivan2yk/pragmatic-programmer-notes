@@ -75,6 +75,9 @@
 8. Make quality a requirement issue
 9. Invest regularly in your knowledge portfolio
 10. Critically analyze what you read and hear
+11. English is just another programming language
+12. It is both what you say and the way you say it
+13. Build documentation in, do not bolt it on: Documentation should be created as part of the development process, not added later as an afterthought
 ## My notes
 - When someone such as bank teller, and auto mechanic, or a clerk comes to me with a lame excuse I feel angry and think they are incompetent, I think they are not a good company and they do not offer quality.
 - Next time I find myselft saying "I do not know" I will add "but I will find out", that way I will admit I do not know something but I am taking responsability.
