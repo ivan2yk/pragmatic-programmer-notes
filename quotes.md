@@ -1,0 +1,3 @@
+- The greatest of all weaknesses is the fear of appearing weak. J.B Bossuet.
+- An investment in knowledge always pays the best interest. Benjamin Franklin.
+- I believe that it is better to be looked over than it is to be overlooked. Mae West.
