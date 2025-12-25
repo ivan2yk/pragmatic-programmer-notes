@@ -16,6 +16,7 @@
 - Do not live with broken windows. Do not leave broken windows (bad designs, wrong decisions, poor code) unrepaired; fix them immediately or take some action.
 ### Stone Soup and Boiled Frogs
 - Be a catalyst for change. If asking for permission will cause start-up fatigue, take the initiative ("bring out the stones" as the soldiers did in the "Stone Soup" story): identify a reasonable improvement you can deliver, develop it well, and let others marvel. People find it easier to join an ongoing success.
+- Keep and eye on the big picture, constantly review what is happening around you, not just what you personally are doing.
 ## Tips
 3. You have agency
 4. Provide options, do not make lame excuses
