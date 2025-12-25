@@ -30,11 +30,11 @@
 - Your ability to learn new things is your most important strategic asset.
 - A programmer knowledge portafolio: all the facts a person know about computing, application domain he works on, and all his experience
 - Managing a knowledge portfolio is similar to managing a financial portfolio
-- 1. Serious investors invest regularly as a habit
-- 2. Diversification is the key to long term success
-- 3. Balance your portfolio between conservative and high risk
-- 4. Try to buy low and sell high
-- 5. Review and rebalance your portfolio
+- 1. Serious investors invest regularly as a habit. Use a consistent time and place away from interruptions.
+- 2. Diversification is the key to long term success. The more different things you know, the more valuable you are; As a baseline, you need to know the ins and outs of the particular technology you are working with currently, the go to learn new technology and do not forget the non-technical areas.
+- 3. Balance your portfolio between conservative, high risk and high reward investments. Do not put all your technical eggs in one basket.
+- 4. Try to buy low and sell hig. 
+- 5. Review and rebalance. This is a very dynamic industry, that new hot technology you learn last month might be stone cold by now. 
 ## Tips
 3. You have agency
 4. Provide options, do not make lame excuses
@@ -42,6 +42,7 @@
 6. Be a catalyst for change
 7. Remember the big picture
 8. Make quality a requirement issue
+9. Invest regularly in your knowledge portforlio
 ## My notes
 - When someone such as bank teller, and auto mechanic, or a clerk comes to me with a lame excuse I feel angry and think they are incompetent, I think they are not a good company and they do not offer quality.
 - Next time I find myselft saying "I do not know" I will add "but I will find out", that way I will admit I do not know something but I am taking responsability.
