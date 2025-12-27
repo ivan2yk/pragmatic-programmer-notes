@@ -20,6 +20,6 @@
 - Gain productivity: since changes are localized, development and testing time are reduced
 - Reduce risk: diseased sections of code are isolated, changes are localized, easier to design and run tests
 ## Tips
-- 14. Good design is easier to change than bad design
-- 15. DRY - Do not Repeat Yourself
-- 16. Make it easy to reuse
+14. Good design is easier to change than bad design
+15. DRY - Do not Repeat Yourself
+16. Make it easy to reuse
