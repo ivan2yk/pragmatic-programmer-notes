@@ -5,6 +5,9 @@
 - We believe in ETC principle: Easier To Change
 - A software is well designed if it is Easy To Change
 - Every design principle out there is a special case of ETC
+  - decoupling
+  - single responsability
+  - naming conventions: make the code easy to read so easy to change it
 - Always ask yourself "did the thing i just did make the overall system easier or harder to change?"
 ### DRY - The Evils of Duplication
 - As programmers we work with knowledge: functional and non functional specification that we make it come alive in running code
