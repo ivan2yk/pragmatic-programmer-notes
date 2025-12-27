@@ -39,3 +39,4 @@
 14. Good design is easier to change than bad design
 15. DRY - Do not Repeat Yourself
 16. Make it easy to reuse
+17. Eliminate effects between unrelated things
