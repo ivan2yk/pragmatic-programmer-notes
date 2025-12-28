@@ -36,11 +36,9 @@
   - Documentation
     - Content and presentation should be independent.
 ### Reversibility
-- There is usually more than one way to implement something, and there is usually more than one vendor available to provide a third-party product
-- Critical decisions are not easily reversible
-- By applying principles as DRY, Decoupling and the use of External Configuration, we produce flexible and adaptable software where things are reversible.
-- The mistake lies in assumming that any decision is cast in stone and in not preparing for the contigencies that might arise.
-- What you can do is make it easy to change: hide third party APIs behind your own abstraction layers, break your code into components
+- The environment changes all the time, and there is usually more than one way to implement something, also there is usually more than one vendor available to provide a third-party product.
+- We should be prepare for the changes.
+- What we can do is make things easy to change, by: applying DRY, decoupling, use of external configuration, hiding third party APIs behind our own abstraction layers, breaking our code into components.
 ### Tracer Bullets
 - We use the term tracer bullet development to visually illustrate the need for immediate feedback under actual conditions with a moving goal
 - Like the gunners, you are trying to hit a target in the dark, there are many unknowns
