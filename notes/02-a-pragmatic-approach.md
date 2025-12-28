@@ -35,6 +35,12 @@
     - Constantly monitor what you are doing and also the larger context of your application, verify you are not duplicating knowledge.
   - Documentation
     - Content and presentation should be independent.
+### Reversibility
+- There is usually more than one way to implement something, and there is usually more than one vendor available to provide a third-party product
+- Critical decisions are not easily reversible
+- By applying principles as DRY, Decoupling and the use of External Configuration, we produce flexible and adaptable software where things are reversible.
+- The mistake lies in assumming that any decision is cast in stone and in not preparing for the contigencies that might arise.
+- What you can do is make it easy to change: hide third party APIs behind your own abstraction layers, break your code into components
 ## Tips
 14. Good design is easier to change than bad design
 15. DRY - Do not Repeat Yourself
