@@ -41,6 +41,21 @@
 - By applying principles as DRY, Decoupling and the use of External Configuration, we produce flexible and adaptable software where things are reversible.
 - The mistake lies in assumming that any decision is cast in stone and in not preparing for the contigencies that might arise.
 - What you can do is make it easy to change: hide third party APIs behind your own abstraction layers, break your code into components
+### Tracer Bullets
+- We use the term tracer bullet development to visually illustrate the need for immediate feedback under actual conditions with a moving goal
+- Like the gunners, you are trying to hit a target in the dark, there are many unknowns
+- Tracer bullets work because they operate in the same environment and under the same constraints as the real bullets
+ To get the same effect in code, we look for something that gets us from a requirement to some aspect of the final system quickly, visibly, and repeatably
+- Look for the important requirements, the ones that define the system. Look for the areas where you have doubts, and where you see the biggest risks. Then prioritize your development so that these are the first areas you code.
+- Tracer code is not disposable
+- Tracer development is consistent with the idea that a project is never finished
+- Tracer code approach has many advantages:
+  - Users get to see something working early
+  - Developers build a structure to work in
+  - You have an integration platform
+  - You have something to demonstrate
+  - You have a better feel for progress
+- Tracer code is different than prototyping: prototyping generates disposable code, tracer code is lean but complete and forms part of the skeleton of the final system
 ## Tips
 14. Good design is easier to change than bad design
 15. DRY - Do not Repeat Yourself
