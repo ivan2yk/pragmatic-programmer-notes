@@ -59,3 +59,5 @@
 15. DRY - Do not Repeat Yourself
 16. Make it easy to reuse
 17. Eliminate effects between unrelated things
+18. There are no final decisions
+20. Use tracer bullets to find the target
