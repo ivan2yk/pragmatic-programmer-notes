@@ -40,20 +40,20 @@
 - We should be prepare for the changes.
 - What we can do is make things easy to change, by: applying DRY, decoupling, use of external configuration, hiding third party APIs behind our own abstraction layers, breaking our code into components.
 ### Tracer Bullets
-- We use the term tracer bullet development to visually illustrate the need for immediate feedback under actual conditions with a moving goal
-- Like the gunners, you are trying to hit a target in the dark, there are many unknowns
-- Tracer bullets work because they operate in the same environment and under the same constraints as the real bullets
- To get the same effect in code, we look for something that gets us from a requirement to some aspect of the final system quickly, visibly, and repeatably
+- We use the term tracer bullet development to visually illustrate the need for immediate feedback under actual conditions with a moving goal: vague requirements, new technology, large number of unknowns.
+- Like the gunners, you are trying to hit a target in the dark.
+- Tracer bullets work because they operate in the same environment and under the same constraints as the real bullets. To get the same effect in code, we look for something that gets us from a requirement to some aspect of the final system quickly, visibly, and repeatably.
 - Look for the important requirements, the ones that define the system. Look for the areas where you have doubts, and where you see the biggest risks. Then prioritize your development so that these are the first areas you code.
-- Tracer code is not disposable
-- Tracer development is consistent with the idea that a project is never finished
+- Tracer code is not disposable.
+- Tracer development is consistent with the idea that a project is never finished.
 - Tracer code approach has many advantages:
   - Users get to see something working early
   - Developers build a structure to work in
   - You have an integration platform
   - You have something to demonstrate
   - You have a better feel for progress
-- Tracer code is different than prototyping: prototyping generates disposable code, tracer code is lean but complete and forms part of the skeleton of the final system
+- Tracer development do not always hit the target: since you use this technique in situations where you are not 100% certain of where you are going, you should not be surprised if your first couple of attempts miss, adjust the target until you hit it, that is the point.
+- Tracer code is different than prototyping: prototyping generates disposable code, tracer code is lean but complete and forms part of the skeleton of the final system.
 ## Tips
 14. Good design is easier to change than bad design
 15. DRY - Do not Repeat Yourself
