@@ -9,3 +9,11 @@
 - `concepts/` - Deep dive on important ideas
 - `examples/` - Code and practical examples
 - `quotes.md` - Memorable quotes
+
+## Index
+### Chapters
+- [Introduction](notes/00-intro.md)
+- [01 - A Pragmatic Philosophy](notes/01-a-pragmatic-philosophy.md)
+- [02 - A Pragmatic Approach](notes/02-a-pragmatic-approach.md)
+### Core Concepts
+### Extras
