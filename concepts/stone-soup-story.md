@@ -19,7 +19,7 @@ A few hungry soldiers arrive at a village where the villagers are poor or unwill
 Curious, the villagers gather around as the soldiers:
 - put a stone in a pot of water and boil it,
 - then casually say things like "it would be even better with a few carrots"
-- or "a bit of meat would really bring out the flavow"
+- or "a bit of meat would really bring out the flavor"
 
 One bye one, villagers contribute small ingredients. In the end, everyone enjoys a rich, delicious soup, and the soldiers remove the stone.
 
