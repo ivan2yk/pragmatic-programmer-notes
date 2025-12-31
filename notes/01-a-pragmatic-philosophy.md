@@ -33,7 +33,7 @@
   1. Serious investors invest regularly as a habit. Use a consistent time and place away from interruptions.
   2. Diversification is the key to long term success. The more different things you know, the more valuable you are; As a baseline, you need to know the ins and outs of the particular technology you are working with currently, then go to learn new technology and do not forget the non-technical areas.
   3. Balance your portfolio between conservative, high risk and high reward investments. Do not put all your technical eggs in one basket.
-  4. Try to buy low and sell hig.
+  4. Try to buy low and sell high. Learning java back when it was first introduced may have been risky at the time, but it paid off for the early adopters when it became and industry mainstay.
   5. Review and rebalance. This is a very dynamic industry, that new hot technology you learn last month might be stone cold by now.
 - Your goals could be:
   1. Learn at least one new language every year.
