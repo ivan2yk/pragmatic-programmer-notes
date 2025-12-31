@@ -16,4 +16,8 @@
 - [01 - A Pragmatic Philosophy](notes/01-a-pragmatic-philosophy.md)
 - [02 - A Pragmatic Approach](notes/02-a-pragmatic-approach.md)
 ### Core Concepts
+- [The Stone Soup Story](concepts/stone-soup-story.md)
+- [The Broken Window Theory](concepts/the-broken-window-theory.md)
 ### Extras
+- [Vocabulary](vocabulary.md)
+- [Memorable Quotes](quotes.md)
