@@ -68,7 +68,19 @@
   - Can you identify potential sources of duplication?
   - Are interface definitions and constraints acceptable?
   - Does every module have and access path to the data it needs during execution? Does it have that access when it needs it?
-- Before you embark on prototyping make sure that everyone understands that you are writing disposable code, because prototypes can be attractive to people that do not know they are just prototypes
+- Before you embark on prototyping make sure that everyone understands that you are writing disposable code, because prototypes can be attractive to people that do not know they are just prototype
+### 14. Domain Languages
+- Computer languages influence how you think about a program
+- Designing a solution with C++ in mind will produce different results than a solution based on Haskell-style thinking
+- The language of the problem domain may also suggest a programming solution
+- We always try to write code using the vocabulary of the application domain. In some cases, Pragmatic Programmers can go to the next level and actually program using the vocabulary, syntax, and sematics of the language of the domain
+- Some domain languages: RSpec, Cucumber, Phoenix Routes, Ansiblei
+- There are internal and external domain languages
+- RSpec and Phoenix are examples of internal languages
+- Cucumber and ansible are examples of external languages
+- Internal domain languages can take advantages of the features of its host language, but the downside is that you are bound by the syntax and semantics of the language
+- External domain languages have no host-language syntax restrictions since they are an independent language, but you need to write a good parser or use an existing (as ansible did by using yaml)i
+- There is a simpler way to create internal DSLs: accept some host language syntax and just use functions instead of complext metaprogramming
 ## Tips
 14. Good design is easier to change than bad design
 15. DRY - Do not Repeat Yourself
