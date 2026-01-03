@@ -79,7 +79,7 @@
 - RSpec and Phoenix are examples of internal languages
 - Cucumber and ansible are examples of external languages
 - Internal domain languages can take advantages of the features of its host language, but the downside is that you are bound by the syntax and semantics of the language
-- External domain languages have no host-language syntax restrictions since they are an independent language, but you need to write a good parser or use an existing (as ansible did by using yaml)i
+- External domain languages have no host-language syntax restrictions since they are an independent language, but you need to write a good parser or use an existing (as ansible did by using yaml)
 - There is a simpler way to create internal DSLs: accept some host language syntax and just use functions instead of complext metaprogramming
 ## Tips
 14. Good design is easier to change than bad design
@@ -88,3 +88,5 @@
 17. Eliminate effects between unrelated things
 18. There are no final decisions
 20. Use tracer bullets to find the target
+21. Prototype to learn
+22. Program close to the problem domain
