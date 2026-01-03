@@ -54,6 +54,21 @@
   - You have a better feel for progress
 - Tracer development do not always hit the target: since you use this technique in situations where you are not 100% certain of where you are going, you should not be surprised if your first couple of attempts miss, adjust the target until you hit it, that is the point.
 - Tracer code is different than prototyping: prototyping generates disposable code, tracer code is lean but complete and forms part of the skeleton of the final system.
+### 13. Prototypes and Post-it Notes
+- We build software prototypes to analyze and expose risk, and to offer chances for correction at a greatly reduced cost
+- Prototypes are designed to answer just a few questions, so they are much cheaper and faster to develop than applications that go into production
+- We can prototype: architecture, new functionality in an existing system, structure or contents of external data, thrid-party tools or components, performance issues, user interface design
+- Prototyping is a learning experience, Its value lies not in the code produced, but in the lessons learned.
+- When building prototypes we can ignore details such as: correctness, completeness, robustness, style
+- You can prototype architecture on a whiteboard, with post-it notes or index cards
+- Some areas we can focus when prototyping architecture:
+  - Are the responsabilities of the major areas well defined and appropiate?
+  - Are the collaborations between major components well defined?
+  - Is coupling minimized?
+  - Can you identify potential sources of duplication?
+  - Are interface definitions and constraints acceptable?
+  - Does every module have and access path to the data it needs during execution? Does it have that access when it needs it?
+- Before you embark on prototyping make sure that everyone understands that you are writing disposable code, because prototypes can be attractive to people that do not know they are just prototypes
 ## Tips
 14. Good design is easier to change than bad design
 15. DRY - Do not Repeat Yourself
