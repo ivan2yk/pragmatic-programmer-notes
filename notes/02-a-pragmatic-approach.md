@@ -1,6 +1,6 @@
 # A Pragmatic Approach
 ## Key Ideas
-### The Essence of Good Design
+### 8. The Essence of Good Design
 - A thing is well designed if it adapts to the people who use it, for code it mean it must adapt by changing.
 - We believe in ETC principle: Easier To Change.
 - A software is well designed if it is Easy To Change.
@@ -9,14 +9,14 @@
   - single responsability.
   - naming conventions: make the code easy to read so easy to change it.
 - Always ask yourself "did the thing I just did make the overall system easier or harder to change?".
-### DRY - The Evils of Duplication
+### 9. DRY - The Evils of Duplication
 - As programmers we work with knowledge: functional and non functional specification that we make it come alive in running code.
 - Knowledge is not stable, it changes everytime, and programmers are constantly maintaining knowledge (on maintenance node).
 - When we perform maintenance we have to find and change knowledge embedded in the application, the problem is that it is easy to duplicate knowledge on the programs we develop, when we do so, we invite a maintenance nightmare since we have to remember all the places where the knowledge is spread around.
 - We believe in DRY principle: Do not Repeate Yourself.
 - DRY means: Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
 - More than duplication of code, DRY is about duplication of knowledge, it is about expressing the same thing in two different places, possibly in two different ways.
-### Orthogonality
+### 10. Orthogonality
 - Orthogonality is a critical concept if you want to produce systems that are easy to design, build, test and extend.
 - In computing two or more thing are orthogonal if they are independent or decoupled (changes in one component do not affect any other): in a well designed system, the database code will be orthogonal to the user interface.
 - You get two benefits if you write orthogonal systems: gain  productivity and reduce risk.
@@ -35,11 +35,11 @@
     - Constantly monitor what you are doing and also the larger context of your application, verify you are not duplicating knowledge.
   - Documentation
     - Content and presentation should be independent.
-### Reversibility
+### 11. Reversibility
 - The environment changes all the time, and there is usually more than one way to implement something, also there is usually more than one vendor available to provide a third-party product.
 - We should be prepare for the changes.
 - What we can do is make things easy to change, by: applying DRY, decoupling, use of external configuration, hiding third party APIs behind our own abstraction layers, breaking our code into components.
-### Tracer Bullets
+### 12. Tracer Bullets
 - We use the term tracer bullet development to visually illustrate the need for immediate feedback under actual conditions with a moving goal: vague requirements, new technology, large number of unknowns.
 - Like the gunners, you are trying to hit a target in the dark.
 - Tracer bullets work because they operate in the same environment and under the same constraints as the real bullets. To get the same effect in code, we look for something that gets us from a requirement to some aspect of the final system quickly, visibly, and repeatably.
