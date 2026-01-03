@@ -18,6 +18,7 @@
 ### Core Concepts
 - [The Stone Soup Story](concepts/stone-soup-story.md)
 - [The Broken Window Theory](concepts/the-broken-window-theory.md)
+- [Domain Specific Languages](concepts/dsl.md)
 ### Extras
 - [Vocabulary](vocabulary.md)
 - [Memorable Quotes](quotes.md)
