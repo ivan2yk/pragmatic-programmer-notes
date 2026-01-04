@@ -8,15 +8,15 @@ A DSL lets you speak the language of the problem, not the language of the comput
 1. Reduce the translation gap
   - The business language becomes executable
   - Less interpretation, fewer surprises
-2. Improve communication
- A good DSL:
-- Can be read by developers
-- Sometimes even written or validated by domain experts
-3. Increase safety and consistence
-DSLs
-- Limit what can be expressed
-- Prevent invalid combinations
-- Encode business rules once
+2. Improve communication  
+  A good DSL:
+  - Can be read by developers
+  - Sometimes even written or validated by domain experts
+3. Increase safety and consistence  
+  DSLs
+  - Limit what can be expressed
+  - Prevent invalid combinations
+  - Encode business rules once
 This is specially powerful in:
 - Finance
 - Healthcare
