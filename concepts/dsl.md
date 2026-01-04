@@ -9,7 +9,7 @@ A DSL lets you speak the language of the problem, not the language of the comput
   - The business language becomes executable
   - Less interpretation, fewer surprises
 2. Improve communication
-A good DSL:
+ A good DSL:
 - Can be read by developers
 - Sometimes even written or validated by domain experts
 3. Increase safety and consistence
