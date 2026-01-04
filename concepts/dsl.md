@@ -69,7 +69,7 @@ A DSL lets you speak the language of the problem, not the language of the comput
     - Debuggind is harder
     - Versioning and migration
     - Risk of creating a "bad language"
-## 5, Use Cases Where DSLs Shine
+## 5. Use Cases Where DSLs Shine
 1. Business rules engines
   - Loan approvals
   - Pricing rules
@@ -86,10 +86,10 @@ A DSL lets you speak the language of the problem, not the language of the comput
 - HTML
 - CSS
 - JSX
-## 6. A Pragmatic Rule
+## 6. A Pragmatic Rule  
   Start with:
     1. Plaing code
     2. Then helper functions
     3. Then a fluent API (internal DSL)
-    4. Only then consider and external DSL
+    4. Only then consider and external DSL  
   Most DSLs fail because they are built too early.
