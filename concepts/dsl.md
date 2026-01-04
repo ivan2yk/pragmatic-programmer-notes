@@ -16,37 +16,37 @@ A DSL lets you speak the language of the problem, not the language of the comput
   DSLs
   - Limit what can be expressed
   - Prevent invalid combinations
-  - Encode business rules once
-This is specially powerful in:
-- Finance
-- Healthcare
-- Infrastructure
-- Testing
-4. Make change cheaper
-Business rules change constantly. With DSLs:
-- You often change data or rules, not code
-- Less redeployment
-- Less regresion risk
+  - Encode business rules once  
+  This is specially powerful in:
+  - Finance
+  - Healthcare
+  - Infrastructure
+  - Testing
+4. Make change cheaper  
+  Business rules change constantly. With DSLs:
+  - You often change data or rules, not code
+  - Less redeployment
+  - Less regresion risk
 ## 3. Internal DSLs
-An internal DSL is built inside a general purpose language, using:
-- Fluent APIs
-- Method chaining
-- Lambdas
-- Operator overloading
-Charateristics:
-- No separate parser
-- Reuses host language syntax and tooling
-- Easier to implement
-- Developers are the main users
-Pros:
-- Fast to build
-- Great tooling
-- Type safety
-- Easy refactoring
-Cons:
-- Limited by host language syntax
-- Hard for non-developers to write
-- Can become "clever but unreadable"
+  An internal DSL is built inside a general purpose language, using:
+  - Fluent APIs
+  - Method chaining
+  - Lambdas
+  - Operator overloading  
+  Charateristics:
+  - No separate parser
+  - Reuses host language syntax and tooling
+  - Easier to implement
+  - Developers are the main users  
+  Pros:
+  - Fast to build
+  - Great tooling
+  - Type safety
+  - Easy refactoring  
+  Cons:
+  - Limited by host language syntax
+  - Hard for non-developers to write
+  - Can become "clever but unreadable"
 ## 4. External DSLs
 An external DSL is a separate language with its own:
 - Syntax
