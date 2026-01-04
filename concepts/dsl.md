@@ -70,7 +70,6 @@ A DSL lets you speak the language of the problem, not the language of the comput
     - More expensive to build
   - Examples:
     - SQL
-    - Build DSL (gradle)
     - Pupet
     - Terraform
     - Ansible
