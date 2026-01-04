@@ -37,6 +37,18 @@ A DSL lets you speak the language of the problem, not the language of the comput
     - Reuses host language syntax and tooling
     - Easier to implement
     - Developers are the main users  
+  - Examples:
+    - RSpec (ruby testing dsl)
+    - JUnit + AssertJ (testing)
+    - Mockito (mocking dsl)
+    - jOOQ (sql as a dsl)
+    - pytest (testing dsl)
+    - SQLAlchemy ORM
+    - Airflow DAG Definitions
+    - Chef (ruby dsl)
+    - Gradle (groovy/kotlin dsl)
+    - React (jsx as internal dsl)
+    - SwiftUI
   - Pros:
     - Fast to build
     - Great tooling
@@ -59,6 +71,10 @@ A DSL lets you speak the language of the problem, not the language of the comput
   - Examples:
     - SQL
     - Build DSL (gradle)
+    - Pupet
+    - Terraform
+    - Ansible
+    - Cucumber gherkin
   - Pros:
     - Domain friendly syntax
     - Can be used by non-programmers
