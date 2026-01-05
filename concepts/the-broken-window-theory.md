@@ -1,9 +1,9 @@
 # The Broken Windows Theory
 ## Origins
 ### Historical Background
-  The theory was introduced in 1982 by social scientists James Q. Wilson and George L. Kelling in an article published in The Atlantic.
-  They studied how visible signs of disorder in urban environments influence human behavior.
-  Their core hypotesis was simple but powerful:
+  The theory was introduced in 1982 by social scientists James Q. Wilson and George L. Kelling in an article published in The Atlantic.  
+  They studied how visible signs of disorder in urban environments influence human behavior.  
+  Their core hypotesis was simple but powerful:  
     Visible neglect encourages further neglect and eventually serious crime.
 ### The Classic Broken Window Example
 - The theory is often explained using a simple scenario:
@@ -46,6 +46,5 @@
 | Litter | TODOs left forever |
 | Abandoned building | Unmaintained module |
 | Neglected stree | Legacy area no one toches |
-Different domains, same human psycology. 
 ## Summary
 Visible signs of neglect or disorder (like a broken window left unrepaired) signal that no one cares, which encourages more disorder and eventually more serious probrems
