@@ -46,6 +46,6 @@
 | Abandoned building | Unmaintained module |
 | Neglected stree | Legacy area no one toches |
 ## The Broken Windows Theory in Software Development
-In The Pragmatic Programmer, this idea is applied to software systems and teams: Small problem left unfixed lead to bigger problems and systematic decay.
-A single "broken window" in code, process, or culture sends a message: Quality does not matter here
+  In The Pragmatic Programmer, this idea is applied to software systems and teams: Small problem left unfixed lead to bigger problems and systematic decay.  
+  A single "broken window" in code, process, or culture sends a message: Quality does not matter here.
 
