@@ -3,8 +3,7 @@
 ### Historical Background
   The theory was introduced in 1982 by social scientists James Q. Wilson and George L. Kelling in an article published in The Atlantic.  
   They studied how visible signs of disorder in urban environments influence human behavior.  
-  Their core hypotesis was simple but powerful:  
-    Visible neglect encourages further neglect and eventually serious crime.
+  Their core hypotesis was simple but powerful: Visible neglect encourages further neglect and eventually serious crime.
 ### The Classic Broken Window Example
 - The theory is often explained using a simple scenario:
   - A building has one broken window
