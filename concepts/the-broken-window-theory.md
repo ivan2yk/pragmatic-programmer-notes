@@ -45,5 +45,7 @@
 | Litter | TODOs left forever |
 | Abandoned building | Unmaintained module |
 | Neglected stree | Legacy area no one toches |
-## Summary
-Visible signs of neglect or disorder (like a broken window left unrepaired) signal that no one cares, which encourages more disorder and eventually more serious probrems
+## The Broken Windows Theory in Software Development
+In The Pragmatic Programmer, this idea is applied to software systems and teams: Small problem left unfixed lead to bigger problems and systematic decay.
+A single "broken window" in code, process, or culture sends a message: Quality does not matter here
+
