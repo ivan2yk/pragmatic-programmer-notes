@@ -67,7 +67,6 @@
 - Pragmatic programmers embrace documentation as an integral part of the overall development process.
 - Keep code and documentation together.
 ## Tips
-3. You have agency
 4. Provide options, do not make lame excuses
 5. Do not live with broken windows
 6. Be a catalyst for change
