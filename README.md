@@ -15,6 +15,7 @@
 - [Introduction](notes/00-intro.md)
 - [01 - A Pragmatic Philosophy](notes/01-a-pragmatic-philosophy.md)
 - [02 - A Pragmatic Approach](notes/02-a-pragmatic-approach.md)
+- [05 - Bend or Break - Decoupling](notes/05-bend-or-break-decoupling.md)
 ### Core Concepts
 - [The Stone Soup Story](concepts/stone-soup-story.md)
 - [The Broken Window Theory](concepts/the-broken-window-theory.md)
