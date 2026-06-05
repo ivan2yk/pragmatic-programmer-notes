@@ -181,11 +181,3 @@ public class Total {
 ```
 
 ---
-
-## Key Takeaways for This Project
-
-1. ✅ `HighLevelClassDeCoupled` correctly delegates instead of making decisions based on internal state
-2. ✅ `Order` and `Total` encapsulate their own behavior
-3. ✅ `Customer.findOrderById()` is shy—it only exposes what clients need
-4. ⚠️ `Customer.getOrders()` violates encapsulation—should be removed or return immutable list
-5. ⚠️ Null handling: `findOrderById()` can return null—should use `Optional<Order>` or check for null
