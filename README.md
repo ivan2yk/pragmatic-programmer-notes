@@ -42,7 +42,7 @@ This repo captures what I found most valuable — not a full transcript, but the
 - [02 — A Pragmatic Approach](notes/02-a-pragmatic-approach.md)
 - [05 — Bend or Break: Decoupling](notes/05-bend-or-break-decoupling.md)
 - [05 — Bend or Break: Events, FSM, Observables, PubSub, Reactive Programming](notes/05-bend-or-break-jugglingTheRealWorld.md)
-- [05 - Bend or Break - Transforming Programming](notes/05-bend-or-break-transformingProgramming.md)
+- [05 — Bend or Break: Transforming Programming](notes/05-bend-or-break-transformingProgramming.md)
 
 ### Core Concepts
 - [The Stone Soup Story](concepts/stone-soup-story.md)
