@@ -48,6 +48,7 @@ This repo captures what I found most valuable — not a full transcript, but the
 - [The Stone Soup Story](concepts/stone-soup-story.md)
 - [The Broken Window Theory](concepts/the-broken-window-theory.md)
 - [Domain Specific Languages (DSL)](concepts/dsl.md)
+- [Functional Programming](concepts/functional-programming.md)
 
 ### Extras
 - [Vocabulary](vocabulary.md)
