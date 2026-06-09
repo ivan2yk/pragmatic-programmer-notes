@@ -180,4 +180,44 @@ public class Total {
 }
 ```
 
+### HighLevelClassCoupled
+```java
+import java.util.List;
+import domain.Customer;
+import domain.Order;
+import domain.Total;
+
+public class HighLevelClassCoupled {
+    
+    public void applyDiscount(Customer customer, String orderId, double discount) {
+        List<Order> orders = customer.getOrders();
+        orders.forEach(order -> {
+            if (order.getOrderId().equals(orderId)) {
+                Total total = order.getTotal();
+                double totalAmount = total.getTotalAmount();
+                double discountAmount = totalAmount * discount;
+                total.setDiscountAmount(discountAmount);
+                total.setGrandTotal(totalAmount - discountAmount);
+            }
+        });
+    }
+
+}
+```
+
+### HighLevelClassDeCoupled
+```java
+import domain.Customer;
+
+public class HighLevelClassDeCoupled {
+    
+    public void applyDiscount(Customer customer, String orderId, double discount) {
+        customer
+        .findOrderById(orderId)
+        .applyDiscount(discount);
+    }
+
+}
+```
+
 ---
