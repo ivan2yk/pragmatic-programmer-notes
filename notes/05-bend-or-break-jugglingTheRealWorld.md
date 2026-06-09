@@ -41,3 +41,22 @@
 - These streams can have many formats requiring different processing mechanisms — reactive programming solves this by providing a single composable model
 - Unifies the other three strategies into a single composable model at scale
 - RxJS is the reactive library for JavaScript; the paradigm also exists in Java (RxJava, Project Reactor) and .NET (Rx.NET)
+
+**Example — combining a static list with a time-based stream using `zip`:**
+
+```javascript
+// from() converts an array into an observable stream
+// interval() emits an incrementing number every 500ms
+// zip() pairs each animal with each tick — controlling the emission pace
+let animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+let animals$ = from(animals);
+let ticker$  = interval(500);
+let combined$ = zip(animals$, ticker$);
+
+combined$.subscribe(
+  next     => console.log(next),
+  err      => console.log('Error: ' + err),
+  ()       => console.log('Completed')
+);
+// Output: ['ant', 0], ['bison', 1], ['camel', 2] ... every 500ms
+```
