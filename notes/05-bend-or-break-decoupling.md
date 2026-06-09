@@ -1,4 +1,4 @@
-# Decoupling - Pragmatic Programmer Chapter 5
+# Chapter 5 - Decoupling
 
 ## Core Concepts
 
