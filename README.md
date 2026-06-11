@@ -4,8 +4,6 @@
 
 Personal notes, key takeaways, and mental models from **The Pragmatic Programmer: 20th Anniversary Edition** by Andrew Hunt & David Thomas.
 
-Not a full transcript — just the ideas worth internalizing as a working software engineer.
-
 ---
 
 ## 📊 Progress
