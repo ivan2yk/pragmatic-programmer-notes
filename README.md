@@ -52,6 +52,7 @@ This repo captures what I found most valuable — not a full transcript, but the
 - [Domain Specific Languages (DSL)](concepts/dsl.md)
 - [Functional Programming](concepts/functional-programming.md)
 - [Config Server Pattern](concepts/config-server-pattern.md)
+- [Event Driven Architectue](concepts/event-driven-architecture.md)
 
 ### Extras
 - [Vocabulary](vocabulary.md)
