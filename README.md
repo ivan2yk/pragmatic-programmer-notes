@@ -44,7 +44,7 @@ This repo captures what I found most valuable — not a full transcript, but the
 - [05 — Bend or Break: Events, FSM, Observables, PubSub, Reactive Programming](notes/05-bend-or-break-jugglingTheRealWorld.md)
 - [05 — Bend or Break: Transforming Programming](notes/05-bend-or-break-transformingProgramming.md)
 - [05 — Bend or Break: Inheritance Tax](notes/05-bend-or-break-inherintanceTax.md)
-- [05 - Bend or Break: Configuration](notes/05-bend-or-break-configuration.md)
+- [05 — Bend or Break: Configuration](notes/05-bend-or-break-configuration.md)
 
 ### Core Concepts
 - [The Stone Soup Story](concepts/stone-soup-story.md)
