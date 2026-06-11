@@ -1,82 +1,106 @@
-# A Pragmatic Philosophy
-## Key ideas
-### 1. It's Your Life
-- If you feel you are stagnating on your job or are underappreciate or underpaid or technology has passed you by, then do something to change it, after all this is you career this is your life.
-### 2. The Cat Ate My Source Code (Take Responsability)
-- Take responsability for yourself and your actions.
-- When things go wrong deal with them as professionally as you can, that means to be honest and direct.
-- When you make a mistake admit it honestly and try to offer solutions.
-- Trust in a team is essential.
-- Provide solutions and do not make lame excuses.
-### 3. Software Entropy
-- Software rot is an increase of disorder in software.
-- There are many factors that contribute in software rot, the most important one seems to be the psycology or culture at work or project.
-- The broken window theory. A broken window in a building gives and idea of abandonment, that no one care about the building; and this leads to more disorder and eventual serious damage
-- Hopelessness can be contagious. Ignoring a clearly broken situation reinforces the ideas that maybe nothing can be fixed, that no one cares, that all is doomed.
-- Do not live with broken windows. Do not leave broken windows (bad designs, wrong decisions, poor code) unrepaired; fix them immediately or take some action.
-### 4. Stone Soup and Boiled Frogs (Be a Catalyst for Change and Keep and Eye on the Big Picture)
-- Be a catalyst for change. If asking for permission will cause start-up fatigue, take the initiative ("bring out the stones" as the soldiers did in the "Stone Soup" story): identify a reasonable improvement you can deliver, develop it well, and let others marvel. People find it easier to join an ongoing success.
-- Keep and eye on the big picture, constantly review what is happening around you, not just what you personally are doing.
-### 5. Good-Enough Software
-- Discipline yourself to always write good enough software: to your users, for future maintenance, for your own peace of mind.
-- Involve your users in the Trade-Off: The scope and quality of the system you produce should be discussed as part of the system's requirements. 
-- Surprinsingly, many users would rather use software with some rough edges today than wait a year for the shiny.
-- Great software today is often preferable to the fantasy of perfect software tomorrow.
-- Do not spoil perfectly good program by overembellishment and overrefinement.
-### 6. Your Knowledge Portfolio
-- Your knowledge and experience are your most important day to day professional assets.
-- Knowledge and experience are expiring assets: something whose value diminishes over time.
-- As the value of your knowledge and experience declines, so does your value to your company or client.
-- Your ability to learn new things is your most important strategic asset.
-- A programmer knowledge portafolio: all the facts a person know about computing, application domain he works on, and all his experience.
-- Managing a knowledge portfolio is similar to managing a financial portfolio.
-  1. Serious investors invest regularly as a habit. Use a consistent time and place away from interruptions.
-  2. Diversification is the key to long term success. The more different things you know, the more valuable you are; As a baseline, you need to know the ins and outs of the particular technology you are working with currently, then go to learn new technology and do not forget the non-technical areas.
-  3. Balance your portfolio between conservative, high risk and high reward investments. Do not put all your technical eggs in one basket.
-  4. Try to buy low and sell high. Learning java back when it was first introduced may have been risky at the time, but it paid off for the early adopters when it became and industry mainstay.
-  5. Review and rebalance. This is a very dynamic industry, that new hot technology you learn last month might be stone cold by now.
-- Your goals could be:
-  1. Learn at least one new language every year.
-  2. Read a technical book each month.
-  3. Read nontechnical books, too.
-  4. Take classes.
-  5. Participate in local user groups and meetups.
-  6. Experiment with different environments: If you have worked in Windows, spend some time with Linux.
-  7. Stay current: Read news and posts online on technology different that of your current project.
-- Think critically about what your read and hear, answer the next questions:
-  1. Ask the five whys: Ask "why?" at least five times.
-  2. Who does this benefit?.
-  3. What is the context?.
-  4. When or where would this work?.
-  5. Why is this a problem?.
-### 7. Communicate
-- Having the best ideas, the finest code, or the most pragmatic thinking is ultimately sterile unless you can communicate with other people.
-- A good idea is an orphan without effective communication.
-- As developers we have to communicate on many levels.
-- A large part of our day is spent communicating so we need to do it well.
-- Know your audience: you need to understand their needs, interests and capabilities of your audience.
-- Gather feedback.
-- Do not just wait for questions, ask for them.
-- Look at body language and facial expressions.
-- Plan what you want to say. Write an outline then ask yourself if it express what you want to express, then refine it
-- Choose the best moment.
-- Chooose the appropiate style to suit your audience, remember that you are half of the communication transaction.
-- Your ideas are important so they deserve a good-looking vehicle to convey them to your audience.
-- There is one technique that you must follow if you want people to listen to you: listen to them.
-- Unless you work in a vacuum, you need to be able to communicate. The more effective that communication, the more influential you become.
-- Pragmatic programmers embrace documentation as an integral part of the overall development process.
-- Keep code and documentation together.
-## Tips
-4. Provide options, do not make lame excuses
-5. Do not live with broken windows
-6. Be a catalyst for change
-7. Remember the big picture
-8. Make quality a requirement issue
-9. Invest regularly in your knowledge portfolio
-10. Critically analyze what you read and hear
-11. English is just another programming language
-12. It is both what you say and the way you say it
-13. Build documentation in, do not bolt it on: Documentation should be created as part of the development process, not added later as an afterthought
-## My notes
-- When someone such as bank teller, and auto mechanic, or a clerk comes to me with a lame excuse I feel angry and think they are incompetent, I think they are not a good company and they do not offer quality.
-- Next time I find myselft saying "I do not know" I will add "but I will find out", that way I will admit I do not know something but I am taking responsability.
+# Chapter 1 — A Pragmatic Philosophy
+
+## 1. It's Your Life
+
+Your career belongs to you. If something isn't working — your role, your tech stack, your team dynamic — you have the agency to change it. Don't wait for someone else to fix it.
+
+> **Tip 3. You have agency** — You have the power to act, choose, and shape outcomes.
+
+---
+
+## 2. The Cat Ate My Source Code — Take Responsibility
+
+Pragmatic programmers own their decisions and their consequences. When something goes wrong, don't look for excuses — look for solutions.
+
+- Be honest about what you don't know, and commit to learning it fast.
+- Build trust deliberately: your team needs to trust you, and you need to trust them. Trust is the foundation for collaboration and psychological safety.
+- Before saying "it can't be done," explore alternatives. In software, there are almost always options — just maybe not the ones you originally planned.
+
+> **Tip 4. Provide options, don't make lame excuses** — If you don't know something, admit it, then rapidly learn and solve it.
+
+---
+
+## 3. Software Entropy
+
+Software entropy (also called *software rot*) is the gradual deterioration of a codebase. The surprising finding is that the most powerful driver of entropy isn't technical — it's **psychological**.
+
+The *broken window theory* explains it: a single broken window in a building signals abandonment. That signal spreads. People stop caring because it looks like no one else does. The same happens in codebases.
+
+- One bad design decision left unaddressed sends the message: *this is acceptable here*.
+- Hopelessness is contagious. If people believe nothing can be fixed, they stop trying.
+- The fix doesn't have to be immediate — even boarding up a window (leaving a `// TODO: fix this, known issue` comment) shows intent and stops the decay signal.
+
+> **Tip 5. Don't live with broken windows** — Fix bad designs, wrong decisions, and poor code as soon as you find them. Don't let rot normalize.
+
+---
+
+## 4. Stone Soup and Boiled Frogs
+
+This topic covers two related failure modes: failing to *start* change, and failing to *notice* gradual change.
+
+### Stone Soup — Be a Catalyst for Change
+In organizations there are always obstacles: budget constraints, bureaucracy, lack of motivation. Waiting for perfect conditions means never starting. Instead, take the initiative with something small and well-executed — people find it much easier to join a success already in motion than to approve an abstract proposal.
+
+> **Tip 6. Be a catalyst for change** — Work with what you have. Prove something is possible, and others will follow.
+
+### Boiled Frogs — Watch the Big Picture
+The boiled frog metaphor describes how gradual change can go unnoticed until it's too late. In software this looks like: scope creep added feature by feature, performance degrading request by request, technical debt accumulated PR by PR.
+
+- Don't become so absorbed in your own task that you stop seeing what's happening around the project.
+- Periodically zoom out: Is the architecture still sound? Are requirements drifting? Is the team burning out?
+
+> **Tip 7. Remember the big picture** — Constantly review what is happening around you, not just what you personally are doing.
+
+---
+
+## 5. Good-Enough Software
+
+"Good enough" does not mean sloppy. It means software that genuinely meets user requirements — including quality requirements like performance, security, and maintainability — without wasting effort on unnecessary perfection.
+
+Key ideas:
+- **Users define quality**, not developers. Involve them early in deciding how good is good enough.
+- A working product delivered today is usually more valuable than a perfect product delivered next year. Ship, learn, iterate.
+- **Overengineering is a waste.** Every extra hour spent polishing something beyond its actual need is an hour taken from something that does need it.
+- Know when to stop. Continuing to add features and refinements past the point of usefulness introduces new risks and defects.
+
+> **Tip 8. Make quality a requirements issue** — Define quality explicitly, involve users in that definition, and use it as your stopping criterion.
+
+---
+
+## 6. Your Knowledge Portfolio
+
+Your knowledge is your most valuable professional asset — and like any asset, it can depreciate. Technologies change. Frameworks come and go. What you know today may not be relevant in five years.
+
+Your ability to *keep learning* is therefore your most important long-term skill. Treat knowledge like a financial portfolio:
+
+1. **Invest regularly** — Make learning a habit, not an occasional event.
+2. **Diversify** — Master your current stack, but keep expanding: new languages, new paradigms, soft skills, domain knowledge.
+3. **Manage risk** — Balance deep expertise in proven technologies with exposure to emerging ones.
+4. **Review and rebalance** — Periodically audit what you know and where the industry is heading.
+
+> **Tip 9. Invest regularly in your knowledge portfolio** — Consistent, diversified learning compounds over time.
+
+> **Tip 10. Critically analyze what you read and hear** — Don't accept things at face value. Think about who is saying it, why, and whether it holds up against your own experience. The tech industry is full of hype, fads, and vendor-driven narratives. Develop your own informed perspective.
+
+---
+
+## 7. Communicate
+
+Technical skill alone isn't enough. Ideas that can't be communicated effectively don't get implemented, funded, or adopted. Communication is as much a craft as coding.
+
+Practical principles:
+- **Know what you want to say** — Clarify your own thinking before opening your mouth or writing.
+- **Know your audience** — A manager and a senior engineer need different levels of detail and different frames of reference.
+- **Choose the right moment** — Timing matters. Raising a concern in the middle of a crisis lands differently than raising it in a planning meeting.
+- **Match the style** — Formal doc for architectural decisions, Slack message for a quick heads-up, face-to-face for sensitive feedback.
+- **Make it look good** — Presentation signals professionalism and respect for the reader's time.
+- **Be a listener** — Communication is bidirectional. The best communicators ask good questions and actually listen to the answers.
+- **Get back to people** — A delayed response is almost as damaging as no response. Close the loop.
+
+> **Tip 11. English is just another programming language** — Treat written and verbal communication with the same care you give your code.
+
+> **Tip 12. It's both what you say and the way you say it** — The same message delivered differently can inform, motivate, or alienate.
+
+> **Tip 13. Build documentation in, don't bolt it on** — Documentation written after the fact is incomplete and often wrong. Embed it in your development process from the start: inline comments, ADRs, OpenAPI specs, READMEs. It will save far more time than it costs.
+
+---
