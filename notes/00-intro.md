@@ -1,14 +1,7 @@
 # Intro
-## Key Ideas
-- The book will help you become a better programmer
-- Programming is a dificult job. On programming there are no easy answers. On programming there is no best solution, be it a tool, a language, or an OS. There can only be systems that are more appropiate in a particular set of circumstances
-- Programmers should not be wedded to any particular technology but have a broad enough background and experience to allow them to choose good solutions in particular situations, programmers should be pragmatics
-- What makes a pragmatic programmer?:
-    - Early adopter / fast adopter
-    - Inquisitive
-    - Critical thinker
-    - Realistic
-    - Jack of all trades
-## Tips
-1. Care about your craft. There is no point in developing software unless you care about doing it well.
-2. Think about you work. Think about what you are doing while you are doing it, do not do things in auto-pilot. Constantly be thinking.
+- Programming is hard, there are no easy answers on programming, there is no best solution on programming, there can only be solutions that are more appropiate in a particular set of circumstances
+- Programmers should have a broad background and experience to allow them to choose good solutions in particular situations, programmers should be **pragmatics**
+- Pragmatic programmers are: early adopters, inquisitive, critical thinkers, realistics
+- Pragmatic programmers:
+    - **Tip 1. Care about their craft**. Care about developing always good software.
+    - **Tip 2. Think about their work**. Be reflexibe, do not do things in auto-pilot, constantly be thinking.

@@ -34,7 +34,7 @@ Personal notes, key takeaways, and mental models from **The Pragmatic Programmer
 
 ## 📚 Index
 
-### [Introduction](notes/00-intro.md)
+### [Chapter 0 — Introduction](notes/00-intro.md)
 
 ### [Chapter 1 — A Pragmatic Philosophy](notes/01-a-pragmatic-philosophy.md)
 
@@ -46,8 +46,6 @@ Personal notes, key takeaways, and mental models from **The Pragmatic Programmer
 - **6. Your Knowledge Portfolio** — Your knowledge is you most important asset.
 - **7. Communicate** — Ideas without effective communication are orphans. Know your audience, listen, get feedback.
 
----
-
 ### [Chapter 2 — A Pragmatic Approach](notes/02-a-pragmatic-approach.md)
 
 - **ETC — Easier To Change** — 
@@ -57,8 +55,6 @@ Personal notes, key takeaways, and mental models from **The Pragmatic Programmer
 - **Tracer Bullets** — 
 - **Prototypes** — 
 - **Domain Languages** — 
-
----
 
 ### [Chapter 5 — Bend, or Break](notes/05-bend-or-break.md)
 - **28. Decoupling** — Minimize what each component knows about others; keep code shy.
