@@ -15,7 +15,7 @@
 ### 28.1. Coupling is the enemy of change
 - Coupling links together things that must change in parallel
 - When components are tightly coupled, changing one requires changes everywhere
-- Decoupled code is easier to change
+> **Tip 44. Decoupled code is easier to change**
 
 ### 28.2. Design for flexibility
 - Individual components should be coupled to as few components as possible
@@ -26,6 +26,7 @@
 - Each object should encapsulate its own behavior
 
 ### 28.4. Encapsulation prevents leaky updates
+> **Tip 45. Tell, Do not Ask**
 - **Problem**: You should not make decisions based on the internal state of an object and then update that object
 - Doing this destroys the benefits of encapsulation
 - It spreads the knowledge of the implementation throughout the code
@@ -64,6 +65,7 @@ The decoupled version:
 - `Order` then delegates to `Total` (where price logic belongs)
 
 ### 28.5. Avoid method call chains
+> **Tip 46. Do not Chain Method Calls**
 - Try not to have more than one "." when accessing something
 - **Bad**: `amount = customer.orders.last().totals().amount` (too many dots, tight coupling)
 
@@ -135,6 +137,9 @@ public void applyDiscount(Customer customer, String orderId, double discount) {
     });
 }
 ```
+### 28.8. Global Data
+>- **Tip 47. Avoid Glogal Data** - Including singletons
+>- **Tip 48. If It's Important Enough to Be Glogal, Wrap It in an API**
 
 ## 29. Juggling the Real World
 
