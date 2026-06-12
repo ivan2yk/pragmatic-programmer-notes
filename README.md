@@ -70,6 +70,9 @@ Personal notes, key takeaways, and mental models from **The Pragmatic Programmer
 - [The Stone Soup Story](concepts/stone-soup-story.md)
 - [The Broken Window Theory](concepts/the-broken-window-theory.md)
 - [Domain Specific Languages (DSL)](concepts/dsl.md)
+- [Functional Programming](concepts/functional-programming.md)
+- [Config Server Pattern](concepts/config-server-pattern.md)
+- [Event Driven Architecture](concepts/event-driven-architecture.md)
 
 ---
 
