@@ -59,14 +59,23 @@ Personal notes, key takeaways, and mental models from **The Pragmatic Programmer
 - **Domain Languages** — 
 
 ---
-- [05 — Bend or Break: Decoupling](notes/05-bend-or-break-decoupling.md)
-- [05 — Bend or Break: Juggling the Real World (FSM, Observer, Pub/Sub, Reactive)](notes/05-bend-or-break-jugglingTheRealWorld.md)
+
+### [Chapter 5 — Bend, or Break](notes/05-bend-or-break.md)
+- **28. Decoupling** — Minimize what each component knows about others; keep code shy.
+- **29. Juggling the Real World** — Model state and reactions with FSMs, Observer, Pub/Sub, and reactive streams.
+- **30. Transforming Programming** — Treat programs as pipelines that transform data, not sequences of instructions.
+- **31. Inheritance Tax** — Favor interfaces, delegation, and mixins over inheritance.
+- **32. Configuration** — Externalize config and expose it behind an API for dynamic, shared use.
+
+---
 
 ### Core Concepts
 
 - [The Stone Soup Story](concepts/stone-soup-story.md)
 - [The Broken Window Theory](concepts/the-broken-window-theory.md)
 - [Domain Specific Languages (DSL)](concepts/dsl.md)
+
+---
 
 ### Extras
 
