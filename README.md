@@ -87,31 +87,31 @@ Personal notes, key takeaways, and mental models from **The Pragmatic Programmer
 
 > Key tips from chapters covered so far. Updated as reading progresses.
 
-**Tip 1: Care About Your Craft** — There is no point in developing software unless you care about doing it well.
+**Tip 1: Care About Your Craft** — Always develop quality products and services.
 
-**Tip 2: Think About Your Work** — Think about what you are doing while you are doing it, do not do things in auto-pilot.
+**Tip 2: Think About Your Work** — No auto-pilot, constantly be thinking on what your are doing while you are doing it.
 
-**Tip 3: You Have Agency**.
+**Tip 3: You Have Agency** — You have the power to act, choose, and shape outcomes.
 
-**Tip 4: Provide Options, Don't Make Lame Excuses**.
+**Tip 4: Provide Options, Don't Make Lame Excuses** - If you don't know something, admit it, then rapidly learn and solve it.
 
-**Tip 5: Don't Live with Broken Windows**.
+**Tip 5: Don't Live with Broken Windows** - Fix bad designs, wrong decisions, and poor code as soon as you find them. Don't let rot normalize.
 
-**Tip 6: Be a Catalyst for Change**.
+**Tip 6: Be a Catalyst for Change** - Work with what you have. Prove something is possible, and others will follow.
 
-**Tip 7: Remember the Big Picture**.
+**Tip 7: Remember the Big Picture** - Constantly review what is happening around you, not just what you personally are doing.
 
-**Tip 8: Make Quality a Requirements Issue** — 
+**Tip 8: Make Quality a Requirements Issue** — Define quality explicitly, involve users in that definition, and use it as your stopping criterion.
 
-**Tip 9: Invest Regularly in Your Knowledge Portfolio** — 
+**Tip 9: Invest Regularly in Your Knowledge Portfolio** — Consistent, diversified learning compounds over time.
 
-**Tip 10: Critically Analyze What You Read and Hear** — 
+**Tip 10: Critically Analyze What You Read and Hear** — Don't accept things at face value. Think about who is saying it, why, and whether it holds up against your own experience. The tech industry is full of hype, fads, and vendor-driven narratives. Develop your own informed perspective.
 
-**Tip 11: English is Just Another Programming Language** — 
+**Tip 11: English is Just Another Programming Language** — Treat written and verbal communication with the same care you give your code.
 
-**Tip 12: It's Both What You Say and the Way You Say It** — 
+**Tip 12: It's Both What You Say and the Way You Say It** — The same message delivered differently can inform, motivate, or alienate.
 
-**Tip 13: Build Documentation In, Don't Bolt It On** - 
+**Tip 13: Build Documentation In, Don't Bolt It On** - Documentation written after the fact is incomplete and often wrong. Embed it in your development process from the start: inline comments, ADRs, OpenAPI specs, READMEs. It will save far more time than it costs.
 
 **Tip 14: Good Design Is Easier To Change Than Bad Design** — 
 
