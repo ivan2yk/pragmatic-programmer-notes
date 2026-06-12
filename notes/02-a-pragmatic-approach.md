@@ -1,4 +1,6 @@
 # A Pragmatic Approach
+
+[Back to README](../README.md)
 ## Key Ideas
 ### 8. The Essence of Good Design
 - A thing is well designed if it adapts to the people who use it, for code it mean it must adapt by changing.

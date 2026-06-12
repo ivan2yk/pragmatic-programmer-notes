@@ -1,5 +1,7 @@
 # Chapter 1 — A Pragmatic Philosophy
 
+[Back to README](../README.md)
+
 ## Index
 - [1. It's Your Life](#1-its-your-life)
 - [2. The Cat Ate My Source Code — Take Responsibility](#2-the-cat-ate-my-source-code-take-responsibility)
