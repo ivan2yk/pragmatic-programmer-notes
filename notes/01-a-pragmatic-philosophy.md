@@ -1,5 +1,16 @@
 # Chapter 1 — A Pragmatic Philosophy
 
+## Index
+- [1. It's Your Life](#1-its-your-life)
+- [2. The Cat Ate My Source Code — Take Responsibility](#2-the-cat-ate-my-source-code-take-responsibility)
+- [3. Software Entropy](#3-software-entropy)
+- [4. Stone Soup and Boiled Frogs](#4-stone-soup-and-boiled-frogs)
+	- [Stone Soup — Be a Catalyst for Change](#stone-soup-be-a-catalyst-for-change)
+	- [Boiled Frogs — Watch the Big Picture](#boiled-frogs-watch-the-big-picture)
+- [5. Good-Enough Software](#5-good-enough-software)
+- [6. Your Knowledge Portfolio](#6-your-knowledge-portfolio)
+- [7. Communicate](#7-communicate)
+
 ## 1. It's Your Life
 
 Your career belongs to you. If something isn't working — your role, your tech stack, your team dynamic — you have the agency to change it. Don't wait for someone else to fix it.
