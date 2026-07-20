@@ -1,24 +1,86 @@
 # A Pragmatic Approach
 
 [Back to README](../README.md)
-## Key Ideas
-### 8. The Essence of Good Design
-- A thing is well designed if it adapts to the people who use it, for code it mean it must adapt by changing.
-- We believe in ETC principle: Easier To Change.
-- A software is well designed if it is Easy To Change.
-- Every design principle out there is a special case of ETC:
-  - decoupling.
-  - single responsability.
-  - naming conventions: make the code easy to read so easy to change it.
-- Always ask yourself "did the thing I just did make the overall system easier or harder to change?".
-### 9. DRY - The Evils of Duplication
-- As programmers we work with knowledge: functional and non functional specification that we make it come alive in running code.
-- Knowledge is not stable, it changes everytime, and programmers are constantly maintaining knowledge (on maintenance node).
-- When we perform maintenance we have to find and change knowledge embedded in the application, the problem is that it is easy to duplicate knowledge on the programs we develop, when we do so, we invite a maintenance nightmare since we have to remember all the places where the knowledge is spread around.
-- We believe in DRY principle: Do not Repeate Yourself.
-- DRY means: Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
-- More than duplication of code, DRY is about duplication of knowledge, it is about expressing the same thing in two different places, possibly in two different ways.
-### 10. Orthogonality
+
+## Index
+- [Key Idea](#key-idea)
+- [8. The Essence of Good Design](#8-the-essence-of-good-design)
+- [9. DRY - The Evils of Duplication](#9-the-evils-of-duplication)
+
+## Key Idea
+Pragmatic programmers should take responsibility for the quality of their work. The following principles will help them achieve this goal, making development more effective and enjoyable.
+
+## 8. The Essence of Good Design
+
+ETC principle: Design and develop software in a way that it easily adapts to changes over time.
+
+Software that is easy to change is better than software that is hard to change, to achieve better software we must actively apply the ETC principle.
+
+Applying ETC principle requires deliberate practice until it becomes second nature. Asking the following question will help us internalize the principle: "**Did the thing I just did make the overall system easier or harder to change?**" Always make decisions that makes the software Easy To Change over time.
+
+Most design principles such as Single Responsibility, Decoupling, and Naming Conventions are special cases of ETC.
+
+> **Tip 14. Good Design Is Easier To Change Than Bad Design**
+
+## 9. The Evils of Duplication
+
+> **Tip 15. DRY - Do not Repeat Yourself**: Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
+
+**❌ Bad (Duplication of Knowledge)**: The goal of the next code is to determine the shipping cost, if the total is greather or equal than 100 there is not cost for shipping. The number 100 and the comparison rule is spread on three classes, this makes the code harder to change since we should change three classes.
+```java
+// In CheckoutService.java
+double shippingCost = (order.total() >= 100) ? 0 : 15.0;
+
+// In OrderSummaryView.java
+String message;
+if (order.total() >= 100) {
+    message = "You qualify for free shipping!";
+} else {
+    message = "Spend " + (100 - order.total()) + " more for free shipping";
+}
+
+// In InvoiceGenerator.java
+boolean freeShipping = order.total() >= 100;
+```
+
+**✅ Good (DRY)**: The rule lives on one place and every consumer asks the policy instead of redefining it, this will be easier to change since rule are a single location on the system.
+```java
+public class ShippingPolicy {
+    private static final double FREE_SHIPPING_THRESHOLD = 100.0;
+    private static final double STANDARD_SHIPPING_COST = 15.0;
+
+    public boolean qualifiesForFreeShipping(Order order) {
+        return order.total() >= FREE_SHIPPING_THRESHOLD;
+    }
+
+    public double shippingCostFor(Order order) {
+        return qualifiesForFreeShipping(order) ? 0 : STANDARD_SHIPPING_COST;
+    }
+
+    public double amountUntilFreeShipping(Order order) {
+        return Math.max(0, FREE_SHIPPING_THRESHOLD - order.total());
+    }
+}
+
+// In CheckoutService.java
+double shippingCost = shippingPolicy.shippingCostFor(order);
+
+// In OrderSummaryView.java
+String message = shippingPolicy.qualifiesForFreeShipping(order)
+    ? "You qualify for free shipping!"
+    : "Spend " + shippingPolicy.amountUntilFreeShipping(order) + " more for free shipping";
+
+// In InvoiceGenerator.java
+boolean freeShipping = shippingPolicy.qualifiesForFreeShipping(order);
+```
+
+**DRY is More than Code:** Is about duplication of knowledge.
+
+Duplication on documentation
+
+> **Tip 16. Make It Easy to Reuse**: -.
+
+## 10. Orthogonality
 - Orthogonality is a critical concept if you want to produce systems that are easy to design, build, test and extend.
 - In computing two or more thing are orthogonal if they are independent or decoupled (changes in one component do not affect any other): in a well designed system, the database code will be orthogonal to the user interface.
 - You get two benefits if you write orthogonal systems: gain  productivity and reduce risk.
@@ -84,8 +146,8 @@
 - External domain languages have no host-language syntax restrictions since they are an independent language, but you need to write a good parser or use an existing (as ansible did by using yaml)
 - There is a simpler way to create internal DSLs: accept some host language syntax and just use functions instead of complext metaprogramming
 ## Tips
-14. Good design is easier to change than bad design
-15. DRY - Do not Repeat Yourself
+
+
 16. Make it easy to reuse
 17. Eliminate effects between unrelated things
 18. There are no final decisions
