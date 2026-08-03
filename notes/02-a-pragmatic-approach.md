@@ -6,6 +6,7 @@
 - [Key Idea](#key-idea)
 - [8. The Essence of Good Design](#8-the-essence-of-good-design)
 - [9. DRY - The Evils of Duplication](#9-the-evils-of-duplication)
+- [10. Orthogonality](#10-orthogonality)
 
 ## Key Idea
 Pragmatic programmers should take responsibility for the quality of their work. The following principles will help them achieve this goal, making development more effective and enjoyable.
