@@ -26,6 +26,8 @@ Most design principles such as Single Responsibility, Decoupling, and Naming Con
 
 > **Tip 15. DRY - Do not Repeat Yourself**: Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
 
+> **Tip 16. Make It Easy to Reuse**
+
 **❌ Bad (Duplication of Knowledge)**: The goal of the next code is to determine the shipping cost, if the total is greather or equal than 100 there is not cost for shipping. The number 100 and the comparison rule is spread on three classes, this makes the code harder to change since we should change three classes.
 ```java
 // In CheckoutService.java
@@ -74,31 +76,35 @@ String message = shippingPolicy.qualifiesForFreeShipping(order)
 boolean freeShipping = shippingPolicy.qualifiesForFreeShipping(order);
 ```
 
-**DRY is More than Code:** Is about duplication of knowledge.
-
-Duplication on documentation
-
-> **Tip 16. Make It Easy to Reuse**: -.
-
 ## 10. Orthogonality
-- Orthogonality is a critical concept if you want to produce systems that are easy to design, build, test and extend.
-- In computing two or more thing are orthogonal if they are independent or decoupled (changes in one component do not affect any other): in a well designed system, the database code will be orthogonal to the user interface.
-- You get two benefits if you write orthogonal systems: gain  productivity and reduce risk.
-- Gain productivity: since changes are localized, development and testing time are reduced.
-- Reduce risk: diseased sections of code are isolated, changes are localized, easier to design and run tests.
-- Some ways you can apply orthogonality are:
-  - Design: 
-    - Systems should be composed of a set of cooperating modules, each of which implements functionality independent of the others.
-    - Layering approach is a powerful way to design orthogonal systems.
-    - Test if your design is orthogonal by asking this question: if i change the requirements behind a particular function, how many modules are affected?, the answer should be one.
-  - Toolkit and libraries
-    - Preserve independence and decoupling of your system as you introduce thrid-party toolkits and libraries.
-    - If a toolkit or library imposes changes that should not be there then they are not orthogonal to your system.
-    - EJB (enterprise java beans) is an example of orthogonality, it adds functionality behind the escenes without changing your code.
-  - Code
-    - Constantly monitor what you are doing and also the larger context of your application, verify you are not duplicating knowledge.
-  - Documentation
-    - Content and presentation should be independent.
+
+Orthogonality is a critical concept if you want to produce systems that are easy to design, develop, test and extend.
+
+In software development orthogonality means a kind of **independence** or **decoupling**: two or more components are orthogonal if a change in one does not affect the others.
+
+Orthogonality does not mean absence of dependency between components, it means independence of axes of change.
+
+### Examples of Orthogonality
+
+- The UI component and the business logic component should be orthogonal. The UI depends on the business logic, it has to, it calls it, but if that dependency goes through a stable interface then a change in the interest rate logic does not affect the UI, and changing the UI from Angular to a mobile app does not affect the business logic. The two components sit on separate axes, so a move in one does not force a move in the other, and change only propagates when the shared contract changes.
+- The UI and the database code should be orthogonal too. Adding a column to a table may affect the data access component, but that change should never reach the UI.
+
+### Benefits
+
+1. Gain productivity: changes stay localized, reuse is promoted, combining independent components produces more functionality, and defects are easier to fix.
+2. Reduce risk: diseased sections stay isolated so a sick component does not spread the bad around the system, components are easy to test, the system is less fragile, and you stay less coupled to third party vendors.
+
+### How to apply Orthogonality
+
+1. Design: keep the system modular, component based and layered. Test your design by asking how many modules are affected if the requirements behind a particular function change; the answer should be one.
+2. Toolkits and libraries: they should not impose changes on the system they are added to, if they do then they are not orthogonal to your system.
+3. Coding: write shy code, modules that do not reveal unnecessary details and do not rely on the implementation of others. Avoid global data and avoid similar functions.
+4. Testing: unit testing individual components should be easy, and the tests should run automatically as part of the regular build process.
+5. Documentation: content and presentation should be independent.
+6. Living with orthogonality: constantly monitor the overall system, looking for duplication and keeping components independent as the code grows.
+
+> **Tip 17. Eliminate Effects Between Unrelated Things**
+
 ### 11. Reversibility
 - The environment changes all the time, and there is usually more than one way to implement something, also there is usually more than one vendor available to provide a third-party product.
 - We should be prepare for the changes.
