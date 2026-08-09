@@ -106,10 +106,42 @@ Orthogonality does not mean absence of dependency between components, it means i
 
 > **Tip 17. Eliminate Effects Between Unrelated Things**
 
-### 11. Reversibility
-- The environment changes all the time, and there is usually more than one way to implement something, also there is usually more than one vendor available to provide a third-party product.
-- We should be prepare for the changes.
-- What we can do is make things easy to change, by: applying DRY, decoupling, use of external configuration, hiding third party APIs behind our own abstraction layers, breaking our code into components.
+## 11. Reversibility
+
+Requirements, users, and the environment around a project change all the time, so the decisions we make about design, architecture, vendors and tools are not always the best ones, and we should be able to adjust them to improve our product.
+
+Reversibility means that no decision is so deeply embedded in the system that undoing it becomes prohibitively expensive. The problem is rarely the decision itself, it is the assumption that the decision is final and the code that gets written on top of that assumption.
+
+### Where irreversibility comes from
+
+- Betting on a technology or a vendor and letting it spread through the codebase. If a third party API is called directly from hundreds of places, changing that vendor stops being a decision and becomes a rewrite.
+- Assuming an external fact will stay fixed. A tax rate, a business rule or a data format that is hardcoded everywhere is a decision you made without realizing it.
+- Following fads. Choosing a technology because it is popular rather than because it fits the problem leaves you married to whatever the industry abandons next.
+
+### How to stay reversible
+
+1. Apply ETC, DRY and orthogonality. Reversibility is what you get for free when components are decoupled and knowledge is not duplicated.
+2. Break the system into well defined components with stable interfaces, so a decision lives inside one component instead of being spread across the system.
+3. Abstract third party dependencies behind your own interfaces, so the vendor becomes a detail you can replace.
+4. Keep configuration outside the code, so decisions that are likely to change can be changed without a deployment.
+5. Treat critical decisions as the ones most worth making reversible, since those are the ones that will hurt the most if they turn out to be wrong.
+
+> **Tip 18. There Are No Final Decisions**
+> **Tip 19. Forgo Following Fads**
+
+### An example of a reversible and an irreversible decision
+
+A company generates and signs electronic invoices for its clients and sends them to the government tax department. Their solution is a component that is installed on the client servers and exposes a SOAP web service, so each client integrates it from their own invoicing module.
+
+One day a new client cannot consume the SOAP service. Instead they generate a single large text file with all the invoices of the day, and they expect the company to process that file and return another text file with the status of each invoice.
+
+If the company built the component around the SOAP service, this is close to a rewrite. If they built it in a reversible way, it is a new adapter:
+
+1. Keep the core agnostic. The components that generate and sign invoices should know nothing about how the invoices arrived, and they should speak their own domain types instead of the request and response classes generated from the WSDL.
+2. Keep the integration interfaces out of the core. SOAP should be one adapter that translates between the transport and the core, so a file based adapter can be added beside it without touching the core.
+3. Do not let the transport dictate the granularity of the core. The core should sign one invoice at a time and it can stay synchronous, because a batch component can consume it in a loop and manage the asynchronous process on top of it. What does not work is a core whose entry point is shaped like a SOAP request, or that writes its own response, or that fails an entire call when a single invoice is rejected.
+4. Persist the result of each invoice instead of only returning it. If the status of every invoice is stored and can be queried by its identifier, then the SOAP adapter reads it back immediately and the batch adapter reads it back later to build the response file, using the same core in both cases.
+
 ### 12. Tracer Bullets
 - We use the term tracer bullet development to visually illustrate the need for immediate feedback under actual conditions with a moving goal: vague requirements, new technology, large number of unknowns.
 - Like the gunners, you are trying to hit a target in the dark.
