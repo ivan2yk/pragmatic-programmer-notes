@@ -7,6 +7,7 @@
 - [8. The Essence of Good Design](#8-the-essence-of-good-design)
 - [9. DRY - The Evils of Duplication](#9-the-evils-of-duplication)
 - [10. Orthogonality](#10-orthogonality)
+- [11. Reversibity](#11-reversibility)
 
 ## Key Idea
 Pragmatic programmers should take responsibility for the quality of their work. The following principles will help them achieve this goal, making development more effective and enjoyable.
@@ -127,6 +128,7 @@ Reversibility means that no decision is so deeply embedded in the system that un
 5. Treat critical decisions as the ones most worth making reversible, since those are the ones that will hurt the most if they turn out to be wrong.
 
 > **Tip 18. There Are No Final Decisions**
+
 > **Tip 19. Forgo Following Fads**
 
 ### An example of a reversible and an irreversible decision
@@ -142,7 +144,7 @@ If the company built the component around the SOAP service, this is close to a r
 3. Do not let the transport dictate the granularity of the core. The core should sign one invoice at a time and it can stay synchronous, because a batch component can consume it in a loop and manage the asynchronous process on top of it. What does not work is a core whose entry point is shaped like a SOAP request, or that writes its own response, or that fails an entire call when a single invoice is rejected.
 4. Persist the result of each invoice instead of only returning it. If the status of every invoice is stored and can be queried by its identifier, then the SOAP adapter reads it back immediately and the batch adapter reads it back later to build the response file, using the same core in both cases.
 
-### 12. Tracer Bullets
+## 12. Tracer Bullets
 - We use the term tracer bullet development to visually illustrate the need for immediate feedback under actual conditions with a moving goal: vague requirements, new technology, large number of unknowns.
 - Like the gunners, you are trying to hit a target in the dark.
 - Tracer bullets work because they operate in the same environment and under the same constraints as the real bullets. To get the same effect in code, we look for something that gets us from a requirement to some aspect of the final system quickly, visibly, and repeatably.
